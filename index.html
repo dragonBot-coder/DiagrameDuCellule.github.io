@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Le Cellule Animale (Eurycote)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Website Icon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'fr',
+          includedLanguages: 'en,fr,es,zh-CN,ar',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <style>
+      .background-svg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+
+      body {
+        font-family: serif;
+        color: #e0e0e0;
+        background: #121212;
+        line-height: 1.6;
+        padding: 20px;
+      }
+
+      .goog-te-banner-frame.skiptranslate,
+      .goog-te-gadget-icon {
+        display: none !important;
+      }
+
+      body {
+        top: 0px !important;
+      }
+    </style>
+
+    <script>
+      function myfunction() {
+        var currentdate = new Date();
+        alert("Today is " + currentdate);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="google_translate_element" style="float: right; margin-bottom: 10px;"></div>
+
+    <ul class="tabs">
+      <li data-tab-target="#home" class="active tab">Page D'Accueil</li>
+      <li data-tab-target="#about" class="tab">Cellule Animale</li>
+      <li data-tab-target="#parties" class="tab">Les Parties du Cellules</li>
+    </ul>
+
+    <svg class="background-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600">
+      <defs>
+        <pattern id="rectPattern" patternUnits="userSpaceOnUse" width="1" height="1">
+          <rect x="0" y="0" width="10000" height="10000" fill="#FFFFFF" />
+          <rect x="50" y="50" width="10000" height="10000" fill="#FFFFFF" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#rectPattern)" />
+    </svg>
+
+    <div class="container">
+      <div class="content">
+        <div class="tab-content">
+          <div id="home" data-tab-content class="active">
+            <div class="center">
+              <div class="header-container">
+                <h2 onclick="myfunction()">Les Cellules Animales</h2>
+              </div>
+              <p>Par Ruilin Li</p>
+            </div>
+          </div>
+
+          <div id="about" data-tab-content>
+            <center>
+              <b><br>Une Diagrame Entiere d'un Cellule Animale (Eucaryote)</b><br><br>
+              <img src="Anatomie.png" width="400px" height="360px" alt="Diagramme du Cellule Animale">
+            </center>
+          </div>
+
+          <div id="parties" data-tab-content>
+            <b><br>Les Parties des Cellules Animaux (Eucaryote) :</b><br><br>
+            <a href="https://fr.wikipedia.org/wiki/Membrane_plasmique"><p>La Membrane Cellulaire/Plasmique</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Cil_cellulaire"><p>Les Cils/Flagelles</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Noyau_(biologie)"><p>Le Noyau</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Nucl%C3%A9ole"><p>Le Nucleole</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Chromatine"><p>La Chromatine/Les Chromosones/L'ADN</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Membrane_nucl%C3%A9aire"><p>La Membrane Nucleaire</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Cytoplasme"><p>Le Cytoplasme</p></a>
+            <a href="http://fr.wikipedia.org/wiki/Cytosol"><p>Le Cytosol</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Mitochondrie"><p>La Mitochondrie</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Lysosome"><p>Le Lysosome</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Vacuole"><p>La Vacuole</p></a>
+            <a href="https://fr.wikipedia.org/wiki/R%C3%A9ticulum_endoplasmique_rugueux"><p>Le Reticulum Endoplasmique Rugeux - RER</p></a>
+            <a href="https://fr.wikipedia.org/wiki/R%C3%A9ticulum_endoplasmique_lisse"><p>Le Reticulum Endoplasmique Lisse - REL</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Ribosomes"><p>Le Ribosome</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Appareil_de_Golgi"><p>L'Appareil/Le Corps de Golgi</p></a>
+            <a href="https://fr.wikipedia.org/wiki/Centriole"><p>Les Centrioles</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
